@@ -6,6 +6,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(input)
-  input = index.to_i - "1" - "9"
+board = [" ", " ", " "]
+def update_array_at_with(array, index, value)
+  array[index] = value
 end
+
+update_array_at_with(board, 0, "X")
+
+board
