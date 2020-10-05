@@ -9,4 +9,6 @@ end
 def input_to_index(user_input)
   user_input = "1"
   converted_input = input_to_index(user_input)
+
+  expect(converted_input).to be_a(Integer)
 end
