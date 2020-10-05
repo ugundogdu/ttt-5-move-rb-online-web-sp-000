@@ -7,8 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
-
-def input_to_index(input)
-  input = index.to_i - 1
-end 
+Please select a square by entering 1-9, 1 for the top left and 9 for the bottom right:
 # Code your CLI Here
