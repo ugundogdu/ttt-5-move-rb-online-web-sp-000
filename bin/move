@@ -3,5 +3,8 @@
 require_relative '../lib/move.rb'
 
 
-Please select a square by entering 1-9, 1 for the top left and 9 for the bottom right:
+puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Where would you like to go?"
+index = gets.strip
 # Code your CLI Here
